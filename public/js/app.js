@@ -9,5 +9,6 @@ $(document).ready(function(){
 		var year = snap.child("Year").val();
 	$("#interns").append("<tr><td >"+ name + "</td><td>" + degree + "</td><td>" + supervisor
 		 + "</td><td>" + year + "</td><td>" + title + "</td><td>" + project + "</td></tr>");
+	$("#authors").append("<input type=radio name=radio onclick=author();/>"+ name +"<br><br>");
 });
 });

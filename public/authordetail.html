@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <!-- update the version number as needed -->
+    <script  src="/__/firebase/5.4.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script  src="/__/firebase/5.4.0/firebase-auth.js"></script>
+    <script  src="/__/firebase/5.4.0/firebase-database.js"></script>
+    <script  src="/__/firebase/5.4.0/firebase-messaging.js"></script>
+    <script  src="/__/firebase/5.4.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script  src="/__/firebase/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+ </head>
+  <body>
+   
+      <div class="mdl-card__supporting-text">
+          <h3>Thesis Information</h3>
+      </div>
+      <label for="internNameRead">Enter Author Name</label>
+      <input type="text" name="internNameRead" id="internNameRead"></input>
+      <button id="internGetInfo">Get Info</button>
+      <hr>
+     <table class="fixed_headers" border="solid">
+            <thead>
+             <tr>
+                 <th width="15%">Student Name</th>
+                 <th width="10%">Degree</th>
+                 <th width="15%">Supervisor Name</th>
+                 <th width="10%">Year</th>
+                 <th width="20%">Thesis Title</th>
+                 <th width="30%">Abstract</th>
+              </tr>
+            </thead>
+            <tbody id="internsNameResult">
+            </tbody>
+    </table>
+    <script src="js/app.js"></script>
+    
+ </body>
+</html>

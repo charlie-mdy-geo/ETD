@@ -9,7 +9,7 @@ $(document).ready(function(){
 		var year = snap.child("Year").val();
 		$("#interns").append("<tr><td >"+ name + "</td><td>" + degree + "</td><td>" + supervisor
 			 + "</td><td>" + year + "</td><td>" + title + "</td><td>" + project + "</td></tr>");
-		$("#authors").append("<div class=mdl-list__item><span class=mdl-list__item-primary-content><i class=material-icons mdl-list__item-avatar>person</i>"+ name +"</span></div>");
+		$("#authors").append("<div class=demo-list-action mdl-list><div class=mdl-list__item><span class=mdl-list__item-primary-content><i class=material-icons mdl-list__item-avatar style=padding-right:20px;>person</i><span>"+ name +"</span></span><a class=mdl-list__item-secondary-action href=authordetail.html><i class=material-icons>star</i></a></div></div>");
 	});
 
 	$('#internGetInfo').bind('click', function () {
@@ -31,6 +31,42 @@ $(document).ready(function(){
 		});
 	});
 	//event.preventDefault();
+	$('#internGetYear').bind('click', function () {
+		var year = $('input[name="internYearRead"]').val();
+		console.log(year);
+		database.orderByChild('Year').equalTo(year).on("child_added", function(Snapshot){
+			console.log(Snapshot.val());
+			var project= Snapshot.child("Abstract").val();
+			var degree = Snapshot.child("Degree").val();
+			var name = Snapshot.child("Student_name").val();
+			var supervisor= Snapshot.child("Supervisor").val();
+			var title = Snapshot.child("Thesis Title").val();
+			var year = Snapshot.child("Year").val();
+			//$("#internNameResult").val(name);
+			//$("#internIDResult").val(title);
+			//$("#internTeamResult").val(year);
+			$("#internsYearResult").append("<tr><td>"+ name + "</td><td>"+ degree + "</td><td>" + supervisor
+			 	+ "</td><td>" + year + "</td><td>" + title + "</td><td>" + project + "</td></tr>");
+		});
+	});
+	$('#internGetBachelor').bind('click', function () {
+		var degree = $('input[name="internBachelorRead"]').val();
+		console.log(degree);
+		database.orderByChild('Degree').equalTo(degree).on("child_added", function(snapShot){
+			console.log(snapShot.val());
+			var project= snapShot.child("Abstract").val();
+			var degree = snapShot.child("Degree").val();
+			var name = snapShot.child("Student_name").val();
+			var supervisor= snapShot.child("Supervisor").val();
+			var title = snapShot.child("Thesis Title").val();
+			var year = snapShot.child("Year").val();
+			//$("#internNameResult").val(name);
+			//$("#internIDResult").val(title);
+			//$("#internTeamResult").val(year);
+			$("#internsBachelorResult").append("<tr><td>"+ name + "</td><td>"+ degree + "</td><td>" + supervisor
+			 	+ "</td><td>" + year + "</td><td>" + title + "</td><td>" + project + "</td></tr>");
+		});
+	});
 });
 
 

@@ -102,7 +102,7 @@
 
       <main class="mdl-layout__content">
         <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col" id="titles">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <h3 class="mdl-cell mdl-cell--12-col">Years</h3>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -171,14 +171,13 @@
                   <h3 style="color:green;">2016</h3>
                 </div>
 
-              <div class="mdl-card__supporting-text">
-                 <h4 style="color:green;" margin="left"><i><u>Read more details</u></i></h4>
-              
-            <label for="internNameRead"><h5 style="color:green;">Enter Author Name</h5></label>
-            <input type="text" name="internNameRead" id="internNameRead"></input>
-            <button id="internGetInfo">Get Info</button>
+            <div class="mdl-card__supporting-text">
+                 <h4 style="color:cyan;" margin="left"><i><u>Read more details</u></i></h4>              
+            <label for="internYearRead"><h5><i>Enter Year</i></h5></label>
+            <input type="text" name="internYearRead" id="internYearRead"></input>
+            <button id="internGetYear">Get Details</button>
             <br><br>
-            <table class="fixed_headers" border="solid">
+            <table class="fixed_headers" border="1">
             <thead>
              <tr>
                  <th width="15%">Student Name</th>
@@ -189,16 +188,14 @@
                  <th width="30%">Abstract</th>
               </tr>
             </thead>
-            <tbody id="internsNameResult">
+            <tbody id="internsYearResult">
             </tbody>
             </table>
             </div>
 
               </div>
             </div>
-          </section>
-
-          
+          </section>     
   
     <script src="js/app.js"></script>
 

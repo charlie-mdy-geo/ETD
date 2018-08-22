@@ -16,7 +16,7 @@ internsApp = {};
 			Degree: internDegree,
 			Student_name: internName,
 			Supervisor: internSupervisor,
-			Title: internTitle,
+			Thesis Title: internTitle,
 			Year: internYear
 
 		}

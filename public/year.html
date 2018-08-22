@@ -78,12 +78,12 @@
           <span class="mdl-layout-title">ETD CU(MDY)</span>
           <div class="mdl-layout-spacer"></div>
           <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: rgb(63,81,181);">
-          <a href="index.html" class="is-active mdl-navigation__link">Home</a>
-          <a href="author.html" class="mdl-navigation__link">Authors</a>
-          <a href="bachelor.html" class="mdl-navigation__link">Bachelor</a>
-          <a href="year.html" class="mdl-navigation__link">Years</a>
-          <a href="about.html" class="mdl-navigation__link">About</a>
-          <a href="contact.html" class="mdl-navigation__link">Contact Us</a>
+          <a href="index.html" class="is-active mdl-navigation__link"><i class="small material-icons">home</i></a>
+          <a href="author.html" class="mdl-navigation__link"><i class="small material-icons">person</i></a>
+          <a href="bachelor.html" class="mdl-navigation__link"><i class="small material-icons">school</i></a>
+          <a href="year.html" class="mdl-navigation__link"><i class="small material-icons">today</i></a>
+          <a href="publisher.html" class="mdl-navigation__link"><i class="small material-icons">bookmarks</i></a>
+          <a href="login.html" class="mdl-navigation__link"><i class="small material-icons">lock_open</i></a>
         </nav> 
         </div>
       </header>
@@ -91,12 +91,12 @@
             <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">ETD CU(MDY)</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="index.html">Home</a>
-          <a class="mdl-navigation__link" href="author.html">Authors</a>
-          <a class="mdl-navigation__link" href="bachelor.html">Bachelor</a>
-          <a class="mdl-navigation__link" href="year.html">Years</a>
-          <a class="mdl-navigation__link" href="about.html">About</a>
-          <a class="mdl-navigation__link" href="contact.html">Contact Us</a>
+          <a class="mdl-navigation__link" href="index.html"><i class="small material-icons" style="padding-right: 20px">home</i>Home</a>
+          <a class="mdl-navigation__link" href="author.html"><i class="small material-icons" style="padding-right: 20px">person</i>Authors</a>
+          <a class="mdl-navigation__link" href="bachelor.html"><i class="small material-icons" style="padding-right: 20px">school</i>Bachelor</a>
+          <a class="mdl-navigation__link" href="year.html"><i class="small material-icons" style="padding-right: 20px">today</i>Years</a>
+          <a class="mdl-navigation__link" href="publisher.html"><i class="small material-icons" style="padding-right: 20px">bookmarks</i>Publisher</a>
+          <a class="mdl-navigation__link" href="login.html"><i class="small material-icons" style="padding-right: 20px">lock_open</i>Login</a>
         </nav>
            </div>
 
@@ -172,20 +172,20 @@
                 </div>
 
             <div class="mdl-card__supporting-text">
-                 <h4 style="color:cyan;" margin="left"><i><u>Read more details</u></i></h4>              
+                 <h4 style="color:cyan;font-style:oblique;"><u>Read more details</u></h4>              
             <label for="internYearRead"><h5><i>Enter Year</i></h5></label>
             <input type="text" name="internYearRead" id="internYearRead"></input>
-            <button id="internGetYear">Get Details</button>
+            <button id="internGetYear" style="font-style:oblique;">Get Details</button>
             <br><br>
             <table class="fixed_headers" border="1">
             <thead>
              <tr>
-                 <th width="15%">Student Name</th>
-                 <th width="10%">Degree</th>
-                 <th width="15%">Supervisor Name</th>
-                 <th width="10%">Year</th>
-                 <th width="20%">Thesis Title</th>
-                 <th width="30%">Abstract</th>
+                 <th width="15%" style="color: red;font-style: oblique;">Student Name</th>
+                 <th width="10%" style="color: red;font-style: oblique;">Degree</th>
+                 <th width="15%" style="color: red;font-style: oblique;">Supervisor Name</th>
+                 <th width="10%" style="color: red;font-style: oblique;">Year</th>
+                 <th width="20%" style="color: red;font-style: oblique;">Thesis Title</th>
+                 <th width="30%" style="color: red;font-style: oblique;">Abstract</th>
               </tr>
             </thead>
             <tbody id="internsYearResult">
@@ -241,16 +241,13 @@
               </ul>
             </div>
           </div>
-          <div class="mdl-mega-footer--bottom-section">
-            <div class="mdl-logo">
-              More Information
-            </div>
-            <ul class="mdl-mega-footer--link-list">
-              <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
+          <div class="mdl-mega-footer__bottom-section">
+            <div class="mdl-logo">Title</div>
+            <ul class="mdl-mega-footer__link-list">
               <li><a href="#">Help</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
             </ul>
-          </div>
+            </div>
         </footer>
       </main>
     </div>

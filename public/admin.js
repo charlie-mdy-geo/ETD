@@ -10,3 +10,5 @@
 function logOut(){
 	firebase.auth().signOut();
 }
+
+

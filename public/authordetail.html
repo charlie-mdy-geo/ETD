@@ -20,13 +20,14 @@
  </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout__header-row">
+     <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout__header-row mdl-layout--small-screen-only">
+            <span class="mdl-layout-title">ETD CU(MDY)</span>
         </div>
-        <div class="mdl-layout__header-row">
+        <div class="mdl-layout__header-row mdl-layout--large-screen-only">
           <span class="mdl-layout-title">ETD CU(MDY)</span>
           <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: rgb(63,81,181);">
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
           <a href="index.html" class="is-active mdl-navigation__link"><i class="small material-icons">home</i></a>
           <a href="author.html" class="mdl-navigation__link"><i class="small material-icons">person</i></a>
           <a href="bachelor.html" class="mdl-navigation__link"><i class="small material-icons">school</i></a>
@@ -48,51 +49,30 @@
           <a class="mdl-navigation__link" href="login.html"><i class="small material-icons" style="padding-right: 20px">lock_open</i>Login</a>
         </nav>
         </div>
-        <main class="mdl-layout__content">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Welcome</h2>
-              </div>
-              <div class="mdl-card__supporting-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Get Started
-                </a>
-              </div>
-              <div class="mdl-card__menu">
-                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                  <i class="material-icons">share</i>
-                </button>
-              </div>
+        
+        <main class="demo-main mdl-layout__content">
+          <div class="demo-container mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+           
+            <div class="my-card mdl-card mdl-cell  mdl-shadow--4dp content  mdl-cell--8-col mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-color-text--black">
+                    <h4 style="color: green;"><i>Thesis Information </i></h4>
+                </div>
+                  <div class="mdl-card__supporting-text">
+                  <label for="internNameRead"><h5 style="color: green;"><i>Enter Author Name</i></label>
+                  <input type="text" name="internNameRead" id="internNameRead"></input>
+                  <button id="internGetInfo" style="color: green;"><i>Get Info</i></button></h5>
+                  </div>
             </div>
-          </section>
-      <div class="mdl-card__supporting-text">
-          <h3 style="color: green;font-style:oblique;">Thesis Information</h3>
-      </div>
-      <label for="internNameRead" style="color: green;font-style:oblique;">Enter Author Name</label>
-      <input type="text" name="internNameRead" id="internNameRead"></input>
-      <button id="internGetInfo" style="color: green;font-style:oblique;">Get Info</button>
-      <hr>
-     <table class="fixed_headers" border="solid">
-            <thead>
-             <tr>
-                 <th width="15%" style="color: red;font-style:oblique;">Student Name</th>
-                 <th width="10%" style="color: red;font-style:oblique;">Degree</th>
-                 <th width="15%" style="color: red;font-style:oblique;">Supervisor Name</th>
-                 <th width="10%" style="color: red;font-style:oblique;">Year</th>
-                 <th width="20%" style="color: red;font-style:oblique;">Thesis Title</th>
-                 <th width="30%" style="color: red;font-style:oblique;">Abstract</th>
-              </tr>
-            </thead>
-            <tbody id="internsNameResult">
-            </tbody>
-    </table>
-    <script src="js/app.js"></script>
+          </div>
+        
+          <div class="demo-container mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            
+            <div class="my-card mdl-card mdl-cell  mdl-shadow--4dp content  mdl-cell--8-col mdl-shadow--2dp">
+              <div id="internsNameResult2"></div>
+          </div>
+      <script src="js/app.js"></script>
   </main>
 
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>

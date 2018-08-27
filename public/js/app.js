@@ -26,8 +26,16 @@ $(document).ready(function(){
 			//$("#internNameResult").val(name);
 			//$("#internIDResult").val(title);
 			//$("#internTeamResult").val(year);
-			$("#internsNameResult").append("<tr><td >"+ name + "</td><td>" + degree + "</td><td>" + supervisor
+			$("#internsNameResult").html("<tr><td>"+ name + "</td><td>" + degree + "</td><td>" + supervisor
 			 	+ "</td><td>" + year + "</td><td>" + title + "</td><td>" + project + "</td></tr>");
+			$("#internsNameResult2").html("<div class=mdl-card__supporting-text><h5 style=color:green;><b><i>Author Name : </b> "+ name + "</i></h5>" +
+				"<h5 style=color:green;><b><i>Degree : </b>"+ degree + "</i></h5>" +
+				"<h5 style=color:green;><b><i>Supervisor Name : </b>"+ supervisor + "</i></h5>" +
+				"<h5 style=color:green;><b><i>Year : </b>"+ year + "</i></h5>" +
+				"<h5 style=color:green;><b><i>Thesis Title : </b>"+ title + "</i></h5>" +
+				"<h5 style=color:green;><b><i>Abstract : </b></h5><h6 style=color:green;>"+ project + "</i></h6></div>" 
+				);
+			
 		});
 	});
 	//event.preventDefault();

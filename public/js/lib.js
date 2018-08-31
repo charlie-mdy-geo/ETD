@@ -56,9 +56,11 @@ internsApp = {};
 
 	function messageHandler(err){
 		if(!!err){
-			console.log(err)
+			console.log(err);
+			window.alert("error");
 		}else{
 			console.log("success");
+			window.alert("success");
 		}
 	}
 	internsApp.Create = fnCreate;

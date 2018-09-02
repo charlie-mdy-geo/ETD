@@ -48,6 +48,8 @@ Finally, I am grateful to all my teachers, team members and colleagues of the Un
 # Firebase Database </br>
  A database is a collection of information that is organized so that it can be easily accessed, managed and updated. Data gets updated, expanded and deleted as new information is added. </br>
   The Firebase Realtime Database is a cloud-hosted database. Data is syned across all clients in realtime, and remains available when the app goes offline. Data is stored as JSON and synchronized in realtime to every connected client. When user build cross-platform apps with our iOS, Android, and automatically receive updates with the newest data. By utilizing this feature of Firebase, there is no necessity to make the own database. Firebase handles all the components that usually come along with creating a backend for applications. It gives an adoptable, expression-based rules language to define how the data should be organized and when information can be persud from or composed to. When user point the app to the proper data source in Firebase, it will retrieve the data in real-time. 
+  # Firebase Authentication </br>
+ Firebase authentication is a service provided by firebase which helps you to build the user authentication system for mobile/web application. It comes with the basic lifecycle methods like Login, Logout, Singup, reset password etc. Also firebase provides an ability to easily integrate your social oauth login with a matter of few clicks.
 
 
 

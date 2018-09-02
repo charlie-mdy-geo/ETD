@@ -41,6 +41,11 @@ Finally, I am grateful to all my teachers, team members and colleagues of the Un
   The aims of our project is to get easily about the thesis information of the master students in University of Computer Studies(Mandalay) at one place and to save time, to reduce paper and familiar with electronic library.<br />
  The project is developed in firebase for window site, mobile phone and tablet. Our project mainly focuses on basic operation in this system like inserting new data or view data. </br>
  Our project is very useful for students inreal world. One significant means of achieving this important mission is the education of graduate students.
+ 
+ # Background of the system </br>
+# Firebase Hosting </br>
+ The production-grade web content hosted for developers is called as firebase hosting. With the help of hosting, user can quickly and easily deploy web apps or content to the CDN (Global content delivery network) using a single command. Firebase hosting gives user a fast, secure, and reliable way to host the app's static assets such as HTMl,CSS, Javascript, and media files. It is very easy process in Firebase because it contains Custom domain support, and Global CDN. Whether users are sending a simple application landing page or a complex Progress Web App. Hosting gives user the infrastructure, features, and manage static website.
+
 
 
 

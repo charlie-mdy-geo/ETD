@@ -101,7 +101,7 @@ we would like to use HTML, CSS, Javascript, JQuery, material design lite in our 
 - The cost of computers hardware and software programs can be expensive. </br>
 - As mobile tablets use wireless network, they can disconnect with network if Wi-Fi fails. </br>
 # Further Extensions </br>
-      This application has incompletes from various view-points because our university doesn't have soft copy. So, we give you abstract of thesis of our university. Various functionalities can be embedded within the project.
+This application has incompletes from various view-points because our university doesn't have soft copy. So, we give you abstract of thesis of our university. Various functionalities can be embedded within the project.
 
 
 

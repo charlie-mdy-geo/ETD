@@ -233,7 +233,7 @@
     "Supervisor": "Dr.Tin Tin Thein",
     "Thesis_Title": "Online Transaction Processing System",
     "Abstract": "As e-commerce and real-time transactions become an increasingly vital part of the business model, businesses are dependent on online transaction processing (OLTP) systems to manage millions of transactions and updated database records instantly and accurately. OLTP systems are the core of the information systems used to supports the daily operations of organizations.\n The implemented system is OLTP application which is client/server application giving online user’s direct access to information. The system processes units of work called transactions. A single transaction might request a bank balance; another might update that balance to reflect a deposit. The system provides the users to perform operational business transaction vial network. The administrator can produce various sales and purchase reports immediately. The system supports the updated current sales items to the administrator. This system is developed with C# Programming, Microsoft SQL Server, Seagate Crystal Report 7.0",
-    "Year": "2009"
+    "Year": " 2009"
   },
 "027":
   {

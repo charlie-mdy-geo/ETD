@@ -51,6 +51,21 @@ Finally, I am grateful to all my teachers, team members and colleagues of the Un
   The Firebase Realtime Database is a cloud-hosted database. Data is syned across all clients in realtime, and remains available when the app goes offline. Data is stored as JSON and synchronized in realtime to every connected client. When user build cross-platform apps with our iOS, Android, and automatically receive updates with the newest data. By utilizing this feature of Firebase, there is no necessity to make the own database. Firebase handles all the components that usually come along with creating a backend for applications. It gives an adoptable, expression-based rules language to define how the data should be organized and when information can be persud from or composed to. When user point the app to the proper data source in Firebase, it will retrieve the data in real-time. 
   # Firebase Authentication </br>
  Firebase authentication is a service provided by firebase which helps you to build the user authentication system for mobile/web application. It comes with the basic lifecycle methods like Login, Logout, Singup, reset password etc. Also firebase provides an ability to easily integrate your social oauth login with a matter of few clicks.
+ # Objective of the Project </br>
+- To study how theses can be modified in real project.</br>
+- To save time for searching via the internet. </br>
+- To help students be better preparaed as knowledge workers </br>
+- To gain data easily from this project. </br>
+- To learn about electronic document preparation and digital libraries.</br>
+# Scope of Proposed System</br>
+The proposed project of Electronic  Thesis and Dissertation is prescribed as follow; </br>
+- View Home </br>
+- View Author </br>
+- View Bachelor </br>
+- View Year </br>
+- View Publisher </br>
+- Login Email and Password
+
  # Conclusion </br>
  The system provides simple and complete functions for users without necessarily search in library about theses data when they are required. By using Internet they can find their required data in our website. Electronic Thesis and Dissertation (ETD) will be not only a great way for the under graduate but also the theses researcher and then one of the useful mobile or tablet or PC. </br>
   This system provides users to search easily University of Computer Studies (Mandalay) theses from 2008-2016 with abstract. Our project has a weakness. </br>

@@ -65,6 +65,27 @@ The proposed project of Electronic  Thesis and Dissertation is prescribed as fol
 - View Year </br>
 - View Publisher </br>
 - Login Email and Password
+## METHODOLOGY </br>
+# Software Selection </br>
+# Chosen Programming Language </br>
+we would like to use HTML, CSS, Javascript, JQuery, material design lite in our project because there are a lot of benefits to pick up languages in our windows form application. </br>
+- HTML describes the structure of Web pages using markup. </br>
+- CSS can control the layout of multiple web pages all at once. It describes how HTML elements are to be displayed on screen, paper, or in other media. </br>
+- Javascript is a high-level and interrupted programming language. </br>
+- JQuery is a fast, small, and feature-rich Javascript library. </br>
+- Material Design Lite makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows. </br>
+- They are readily available and easy to access. </br>
+# Software Requirements </br>
+- Firebase database </br>
+- Sublime Text 3 </br>
+- Gitbush </br>
+- Github </br>
+- VIM </br>
+# Hardware Requirements </br>
+- At least 4.0 of Android OS Version Devices (Android phones and tablets). </br>
+- Internet Access </br>
+- PC with Window OS
+
 
  # Conclusion </br>
  The system provides simple and complete functions for users without necessarily search in library about theses data when they are required. By using Internet they can find their required data in our website. Electronic Thesis and Dissertation (ETD) will be not only a great way for the under graduate but also the theses researcher and then one of the useful mobile or tablet or PC. </br>

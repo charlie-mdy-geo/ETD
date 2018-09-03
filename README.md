@@ -100,8 +100,11 @@ we would like to use HTML, CSS, Javascript, JQuery, material design lite in our 
 
  # Conclusion </br>
  The system provides simple and complete functions for users without necessarily search in library about theses data when they are required. By using Internet they can find their required data in our website. Electronic Thesis and Dissertation (ETD) will be not only a great way for the under graduate but also the theses researcher and then one of the useful mobile or tablet or PC. </br>
+ 
   This system provides users to search easily University of Computer Studies (Mandalay) theses from 2008-2016 with abstract. Our project has a weakness. </br>
+  
    One significant means of achieving this important mission is the education of graduate student. The thesis and dissertation should also enlarge the body of knowledge in th student's chosen field. </br>
+   
    For our project future plan, we ain to do more useful site for our university. We want to make from ETD mini project to University of Computer Studies (Mandalay) e_Library.
    # Advantages of the project </br>
 - Greater exposure to and avalilability of graduate research </br>

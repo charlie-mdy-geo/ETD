@@ -31,18 +31,27 @@ Students should read the guide before writing and make sure to refer to the guid
 
 # Acknowledgements </br>
 I would to express my appreciation and thanks to the following persons whose guidande aided directly or indirectly towards the success of this thesis. </br>
+
 First of all, I respectfully thand U Kyaw Swar Soe, Rector of the University of Computer Studies(Mandalay), for allowing me to do this intern project. </br>
+
 We also greatly thank to Dr.San San Tint, Pro-Rector of University of Computer Studies(Mandalay).</br>
 And sincerely thank to our teachers Dr.Aye Aye Chaw.Head of faculty of Information Scinence Department and Dr. Myat Thida Kyaw, Head of faculty of Computer Science. </br>
+
 I am deeply thankful to my director, U Ravi Chhabra, for his good suggestion of theory, detailed guidance, technological direction and valuable advice. </br>
+
 I am also deeply thankful to my supervisor, Daw Cho Cho Myint, Department of Natural Science for her kindness supervision, suggestion and constant support throughout the period of time. </br>
+
 Finally, I am grateful to all my teachers, team members and colleagues of the University of Computer Studies (Mandalay),providing many useful suggestions and giving me their precious time during the preparation of my project.
 
 # Introduction <br/>
   Nowadays, most of the people widely use internet with mobile phones, tablets and comoputers for various purposes. Around the world, students use online libraries and students can search books at every time and everywhere. It can save time and energy. <br />
+  
   The purposes of our project ETD(Electronic thesis and dissertation)is to provide a good experience which will be of enduring value to the student in understanding how new knowledge is acquired and communicated within his/her chosen fields. In our projects, students can search theses with their abstracts from 2008 to 2016. <br />
+  
   The aims of our project is to get easily about the thesis information of the master students in University of Computer Studies(Mandalay) at one place and to save time, to reduce paper and familiar with electronic library.<br />
+  
  The project is developed in firebase for window site, mobile phone and tablet. Our project mainly focuses on basic operation in this system like inserting new data or view data. </br>
+ 
  Our project is very useful for students inreal world. One significant means of achieving this important mission is the education of graduate students.
  
  # Background of the system </br>

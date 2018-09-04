@@ -3,7 +3,7 @@
 {
 "001":
   {
-    "Student_name":  "MA YEE MON HTUN",
+    "Student_name": "MA YEE MON HTUN",
     "Degree": "M.C.Sc",
     "Supervisor": "Daw Shwe Zin Thein",
     "Thesis_Title": "ONTOLOGY-BASED INFORMA-TION RETRIVAL SYSTEM",
@@ -12,7 +12,7 @@
   },
 "002":
   { 
-    "Student_name":  "MG MG WIN",
+    "Student_name": "MG MG WIN",
     "Degree": "M.C.Tech",
     "Supervisor": "Dr. Khin Ei Ei Chan",
     "Thesis_Title": "SECURE DOOR OPERATIONS SYSTEM USING PROGRAMMABLE INTERFACE CONTROLLER",
@@ -21,7 +21,7 @@
   },
 "003":
   {
-    "Student_name":  "OHMAR MYINT",
+    "Student_name": "OHMAR MYINT",
     "Degree": "B.C.Sc (Hons:)",
     "Supervisor": "Dr. Win Win Zaw",
     "Thesis_Title": "AUTOMATIC EXTRACTION AND RECOGNITION OBJECTS FOR 2D IMAGES",
@@ -30,7 +30,7 @@
   },
 "004":
   {
-    "Student_name":  "KHIN  KHIN OO",
+    "Student_name": "KHIN  KHIN OO",
     "Degree": "B.C.Sc (Hons:)",
     "Supervisor": "Dr. Saw Thandar Myint",
     "Thesis_Title": "INVESTIGATION OF SYNTAX ERRORS IN THE PROGRAM BY USING TOP-DOWN PARSING",
@@ -39,7 +39,7 @@
   },
 "005":
   {
-    "Student_name":  "ZAR NI MG",
+    "Student_name": "ZAR NI MG",
     "Degree": "M.C.Sc",
     "Supervisor": "Dr. Khin Mar Myo",
     "Thesis_Title": "ENHANCING STUDENT INFORMATION SYSTEM BY USING DATA WAREHOUSE AND ON-LINE ANALYTICAL PROCESSING",
@@ -57,7 +57,7 @@
   },
 "007":
   {
-    "Student_name":  "ZIN YU MYINT",
+    "Student_name": "ZIN YU MYINT",
     "Degree": "B.C.Sc (Hons:)",
     "Supervisor": "Daw Myint Myint Maw",
     "Thesis_Title": "RULE-BASED TRANSLATION SYSTEM FROM ENGLISH TO CHINESE ABOUT THE INFECTIOUS DISEASE, TUBERCULOSIS(TB)",
@@ -66,7 +66,7 @@
   },
 "008":
   { 
-    "Student_name":  "OHMAR AUNG",
+    "Student_name": "OHMAR AUNG",
     "Degree": "B.C.Sc (Hons:)",
     "Supervisor": "Dr. Nang Soe Soe Aung",
     "Thesis_Title": "DIANA BASED CLUSTERING FOR INTERVAL SCALED VARIABLES",
@@ -75,7 +75,7 @@
   },
 "009":
   {
-    "Student_name":  " AYE AYE KYAW ",
+    "Student_name": " AYE AYE KYAW ",
     "Degree": "M.C.Sc",
     "Supervisor": "Dr. Nang Soe Soe Aung",
     "Thesis_Title": "A TOOL FOR PROGRAM UNDERSTANDING IN ODL AND UML CLASS DIAGRAM",
@@ -84,7 +84,7 @@
   },
 "010":
   { 
-    "Student_name":  "THEIN TUN AUNG",
+    "Student_name": "THEIN TUN AUNG",
     "Degree": "M.C.Tech",
     "Supervisor": "Daw Nyein Nyein Lwin",
     "Thesis_Title": "COMPUTERIZED REMOTE CONTROL SYSTEM FOR ELECTRICAL ON-OFF SWITCH",
@@ -93,7 +93,7 @@
   },
 "011":
   {
-    "Student_name":  "PYE PYE PHYOE",
+    "Student_name": "PYE PYE PHYOE",
     "Degree": "B.C.Sc (Hons:)",
     "Supervisor": "Daw Tin Pa Pa Kyaw",
     "Thesis_Title": "COMPUTER AIDED INSTRUCTION FOR CONIC SECTIONS",
